@@ -194,12 +194,12 @@
     border: 2px solid white !important;
 }
 .design{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     left: -3%;
     bottom: -2%;
-    transform: rotate(10deg);
+    transform: rotate(5deg);
 }
 .images{
     display: flex;
