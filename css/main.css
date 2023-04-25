@@ -274,13 +274,32 @@ footer{
 }
 .copyright{
     font-family: 'Hind', sans-serif;
-    color: #585c64;
+    font-size: 100%;
+    color:#6b6e73;
 }
 .logo{
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-bottom: 40px;
+}
+.logo>i{
+    color: #6b6e73;
+}
+.logo>i:hover{
+    transform: rotate(22deg);
+}
+.logo>.fa-instagram:hover{
+    color: #db0d4b;
+}
+.logo>.fa-twitter:hover{
+    color: #0ac2fa;
+}
+.logo>.fa-linkedin:hover{
+    color: #0077b5;
+}
+.logo>.fa-whatsapp:hover{
+    color: #25D366;
 }
 @media only screen and (max-width: 600px){
     .hero{
@@ -305,7 +324,4 @@ footer{
     .call-for-action{
         height: 800px !important;
     }
-}
-.copyright{
-    color: rgb(199, 207, 214);
 }
