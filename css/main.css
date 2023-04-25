@@ -237,6 +237,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     text-align: center;
+    z-index: 15;
 }
 .call-for-action>i{
     font-family: 'Hind', sans-serif;
@@ -247,7 +248,7 @@
 .call-for-action> .left-diagonal{
     height: 50%;
     width: 100%;
-    background-color : lightgray; 
+    background-color : rgb(230,230,230); 
     clip-path: polygon(0 40%, 0% 100%, 100% 100%);
     position: absolute;
     left: 0;
@@ -257,7 +258,7 @@
 .call-for-action> .right-diagonal{
     height: 50%;
     width: 100%;
-    background-color: grey;
+    background-color: rgb(225, 225, 225);
     clip-path: polygon(100% 40%, 0% 100%, 100% 100%);
     position: absolute;
     left: 0;
