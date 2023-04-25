@@ -158,6 +158,7 @@
     height: 80vh;
     padding-block: 10px;
     background-color: #585c64;
+    background-image: linear-gradient(90deg,#887a76 0%, #665c64 40%, #7f836d 75%);
     display: flex;
     justify-content: center;
     align-items: center;
