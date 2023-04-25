@@ -211,6 +211,7 @@
 .design>img{
     width: inherit;
     height: inherit;
+    opacity: 0.3;
 }
 .images > .round{
     border: 2px solid black ;
