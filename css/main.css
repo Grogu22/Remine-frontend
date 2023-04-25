@@ -205,6 +205,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    padding-top: 10px;
 }
 .design>img{
     width: inherit;
@@ -304,6 +305,9 @@ footer{
 @media only screen and (max-width: 600px){
     .hero{
         flex-direction: column;
+    }
+    .container-hero{
+        gap: 10px;
     }
     .feature-right{
         flex-direction: column-reverse;
